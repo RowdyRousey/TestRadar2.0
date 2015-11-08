@@ -1,0 +1,3 @@
+speedtest.net
+
+*#9900# et faites "disable fast dormancy"

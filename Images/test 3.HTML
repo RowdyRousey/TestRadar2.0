@@ -1,0 +1,584 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<meta name="title" content="Questions courantes sur l&#8217;EuroAirport : questions sur l&#8217;Aéroport de Bâle-Mulhouse">
+<meta name="description" content="Questions sur l&#8217;Aéroport de Bâle-Mulhouse : les questions-réponses sur l&#8217;EuroAirport Basel Mulhouse Freiburg. L&#8217;Aéroport de Bâle-Mulhouse :  horaires, accès, situation, services, hôtels, emploi, bagages, parking et stationnement......">
+<meta name="language" content="FR">
+<meta name="keyword" content="questions,réponses,details,générales">
+<title>Questions courantes sur l&#8217;EuroAirport : questions sur l&#8217;Aéroport de Bâle-Mulhouse</title>
+<script language="javascript">
+  var iCurrentArboId = 32165;
+  var sPath = " &gt; L'EuroAirport &gt; FAQ - Questions courantes &gt; Questions générales";
+  var sTitle = 'Questions générales';
+  var sLang = "FR";
+  var sFileLang = "FR";
+  var iPageId = 95;
+  var iDynPageID = 115;
+  var sUrl = "../FR/euroairport.php";
+</script>
+<link rel="stylesheet" type="text/css" href="test%203_fichiers/jquery.css">
+<link rel="stylesheet" type="text/css" href="test%203_fichiers/cssclient.css">
+<link rel="stylesheet" type="text/css" href="test%203_fichiers/datePicker.css">
+
+<script type="text/javascript" src="test%203_fichiers/jquery-latest.js"></script>
+<script type="text/javascript" src="test%203_fichiers/jquery_003.js"></script>
+<script type="text/javascript" src="test%203_fichiers/jquery.js"></script>
+<script type="text/javascript" src="test%203_fichiers/jquery_004.js"></script>
+<script type="text/javascript" src="test%203_fichiers/datePicker.js"></script>
+<script type="text/javascript" src="test%203_fichiers/jquery_002.js"></script>
+
+<script language="JavaScript">
+	function setLangue(langue)
+	{ window.document.location.href = "../" + langue + "/accueil.php";}
+</script>
+<script language="Javascript">
+function gotoRecherche()
+{
+	if(document.getElementById("InputRecherche").value != "")
+	{
+		if(document.getElementById("ravset")) {
+			setAdvRecherche();
+		}
+		else {
+			sLink = "?mots=" + document.getElementById("InputRecherche").value;
+			window.location.href = "../FR/recherche.php" + sLink;
+		}
+	}
+}
+
+function gotoAide(){
+}
+
+function gotoContact() { 
+	sOrigine = iPageId + "|" + iDynPageID + "|" + sLang + "|" + iCurrentArboId + "|" + sTitle;
+	sLink = "?origine=" + sOrigine;
+	window.location.href = "../FR/contact.php" + sLink;
+}
+
+function callContact(contactid) {
+	sOrigine = iPageId + "|" + iDynPageID + "|" + sLang + "|" + iCurrentArboId + "|" + sTitle;
+	sLink = "?contactid=" + contactid + "&origine=" + sOrigine;
+	window.location.href = "../FR/contact.php" + sLink;
+}
+
+function gotoPlanSite(){
+	window.location.href = "../FR/plandusite.php";
+}
+
+function gotoFAQ(){
+	window.location.href = "../FR/faq.php?theme=428";
+}
+
+function PopUp(url,w,h,scrolle) {
+
+	// ATTENTION: l'URL doit tj contenir un <\?>
+	var unique
+	unique = GetIntUnique()
+	url = url + "&HH=" + unique
+
+	var XposMsgBox = ( screen.width - w - 8 ) / 2 ;
+	var YposMsgBox = ( screen.height - h - 30 ) / 2 ;
+
+	stats='toolbar=no,location=no,directories=no,status=no,menubar=no,' ;
+	stats += 'scrollbars='+scrolle+',resizable=yes,width='+w+',height='+h+',left='+XposMsgBox+',top='+YposMsgBox ;		
+
+	MsgBox = window.open (url,unique,stats);
+	//MsgBox.style.border = "1px black solid";
+
+}
+
+
+
+
+
+
+function imprimeRecherche(infos, num_page)
+{ popupNamed("impressionRecherche", "imprimerecherche.php?" + infos + "&num_page=" + num_page, 600, 500, "yes");}
+
+function envoieFormFaq()
+{
+	var ok			= true;
+	var mail		= document.RBS_FORM.email.value;
+	var question	= document.RBS_FORM.question.value;
+	var filtre		= /^([\w-]+(?:\.[\w-]+)*)@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,6}(?:\.[a-z]{2})?)$/i;
+
+	if(filtre.test(mail))
+	{ document.getElementById("td_email").style.color = 'black';}
+	else
+	{
+		ok = false;
+		document.getElementById("td_email").style.color = 'red';
+	}
+
+	if(question != "")
+	{ document.getElementById("td_question").style.color = 'black';}
+	else
+	{
+		ok = false;
+		document.getElementById("td_question").style.color = 'red';
+	}
+
+	if(ok)
+	{ document.RBS_FORM.submit();}
+}
+
+function envoieFormContact()
+{
+	var mail		= document.RBS_FORM.email.value;
+	var filtre		= /^([\w-]+(?:\.[\w-]+)*)@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,6}(?:\.[a-z]{2})?)$/i;
+
+	if(filtre.test(mail))
+	{ document.RBS_FORM.submit();}
+	else
+	{ alert("email !");}
+}
+
+function update(obj)
+{
+	window.document.RBS_EAPhorairesForm.controle_declencheur.value = obj.name;
+	window.document.RBS_EAPhorairesForm.submit();
+}
+
+function updateAndSearch(obj)
+{
+	window.document.RBS_EAPhorairesForm.controle_declencheur.value = obj.name;
+	window.document.RBS_EAPhorairesForm.requete.value = "rechercher";
+	window.document.RBS_EAPhorairesForm.submit();
+}
+
+function SelectDateEAPhoraires(objJour, objMois, objAnnee)
+{
+	var dShow = "";
+	
+	d = new Date();
+
+	if(objJour && objJour.value != "EAPdefault")
+	{ dShow = objJour.value;}
+	else
+	{ dShow += 21;}
+
+	if(objMois && objMois.value != "EAPdefault")
+	{ dShow += "/" + objMois.value;}
+	else
+	{ dShow += "/" + 11;}
+
+	if(objAnnee && objAnnee.value != "EAPdefault")
+	{ dShow += "/" + objAnnee.value;}
+	else
+	{ dShow += "/" + 2011;}
+
+//	var dShow = objJour.value + '/' + objMois.value + '/' + objAnnee.value;
+	popupNamed("DatePicker", "../admin/inc/g_calendar2.php?dShow=" + dShow + '&objJour=window.document.RBS_EAPhorairesForm.' + objJour.name + '&objMois=window.document.RBS_EAPhorairesForm.' + objMois.name + '&objAnnee=window.document.RBS_EAPhorairesForm.' + objAnnee.name + '&forEAPhoraires=true',162,190,'no');
+}
+
+function popupNamed(nompopup,nom,w,h,scrolle)
+{
+
+	var XposMsgBox = ( screen.width - w - 8 ) / 2 ;
+	var YposMsgBox = ( screen.height - h - 30 ) / 2 ;
+
+	stats='toolbar=no,location=no,directories=no,status=no,menubar=no,' ;
+	stats += 'scrollbars='+scrolle+',resizable=no,width='+w+',height='+h+',left='+XposMsgBox+',top='+YposMsgBox ;		
+	MsgBox = window.open (nom,nompopup,stats);
+	return(MsgBox);
+}
+
+function affine()
+{
+//	alert("celluleEmettrice " + window.document.RBS_EAPhorairesForm.celluleEmettrice.value);
+
+	if(window.document.RBS_EAPhorairesForm.celluleEmettrice.value != -1 && window.document.RBS_EAPhorairesForm.celluleEmettrice.value != "")
+	{
+		window.document.RBS_EAPhorairesForm.dynalist_affine.value = window.document.getElementById(window.document.RBS_EAPhorairesForm.celluleEmettrice.value).value;
+		window.document.RBS_EAPhorairesForm.submit();
+	}
+}
+
+function supprimeCritere(critere)
+{
+	window.document.RBS_EAPhorairesForm.dynalist_supprimeCritere.value = critere;
+	window.document.RBS_EAPhorairesForm.submit();
+}
+
+function volsImmediats(code_aeroport, aeroport, heure, sens)
+{
+		if(sens == "D")
+		{ var mode_recherche = "depart";}
+		else
+		{ var mode_recherche = "arrivee";}
+
+		var query = "vols_immediats=true&heure=" + heure + "&code_aeroport=" + code_aeroport + "&aeroport=" + aeroport + "&sens=" + sens + "&mode_recherche=" + mode_recherche + "&requete=rechercher";
+		document.location.href = "horaires.php?" + query;
+}
+
+function pageInit()
+{
+	alarm();
+	//document.body.onresize = window_onresize;
+	//window_onresize();
+}
+
+
+var dblpoint	= true;
+var sep			= ":";
+/*var serverDate	= new Date();
+serverDate.setDate(21);
+serverDate.setMonth(11);
+serverDate.setYear(2011);
+serverDate.setHours(17);
+serverDate.setMinutes(38);
+serverDate.setSeconds(29);
+alert(serverDate);
+*/
+
+function alarm()
+{
+	var heure	= new Date()
+
+	if(dblpoint)
+	{ sep = "&nbsp;:&nbsp;";}
+	else
+	{ sep = "&nbsp;&nbsp;&nbsp;";}
+
+	// dblpoint = !(dblpoint);
+
+	var h = heure.getHours();
+	var m = heure.getMinutes();
+
+	if(h < 10)
+	{ h = '0' + h;}
+
+	if(m < 10)
+	{ m = '0' + m;}
+	document.getElementById("spanheure").innerHTML = h + sep + m;
+	setTimeout("alarm()", 60000);
+}
+
+function publicite(url, idPub)
+{
+	var tracer = new Image();
+	tracer.src = 'http://www.euroairport.com/modules/RBS_publicite/admin/onemorehit.php?idPub=' + idPub;
+//	alert(tracer.src);
+
+	window.open(url);
+}
+
+function popup(theURL,winName,features) { 
+  window.open(theURL,winName,features);
+}
+
+	function popupNamed(nompopup, nom, w, h, scrolle) {
+		var XposMsgBox = (screen.width - w - 8) / 2 ;
+		var YposMsgBox = (screen.height - h - 30) / 2 ;
+		var stats = 'toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=' + scrolle + ', resizable=no, width=' + w + ', height=' + h + ', left=' + XposMsgBox + ', top=' + YposMsgBox;	
+		MsgBox = window.open(nom, nompopup, stats);
+		return MsgBox;
+	}
+
+		function SelectDate(objTarget)	{
+	var dShow = objTarget.value;
+	popupNamed('DatePicker', '/admin/inc/g_calendar2.php?dShow=' + dShow + '&oRet=document.all.' + objTarget.name, 162, 190, 'no');
+}</script>
+<link rel="shortcut icon" type="images/png" href="http://www.euroairport.com/media/favoris.png">
+<!--[if lt IE 7]>
+<script defer type="text/javascript" src="../include/pngfix.js"></script>
+<![endif]-->
+</head>
+<body onload="pageInit()">
+
+<div class="global">
+
+	<div class="header">
+		<div class="header-logo"><a href="http://www.euroairport.com/FR/accueil.php"><img src="test%203_fichiers/logo_EAP.png" alt="EuroAirport Basel Mulhouse Freiburg Euro Airport"></a></div>
+		<div class="header-date">21 Novembre 2011</div>
+		<div class="header-hour" id="spanheure">12&nbsp;:&nbsp;00</div>
+		<div class="header-navigation">
+			<ul class="header-nav">
+			<li class="first"><a href="http://www.euroairport.com/FR/accueil.php">Accueil</a></li>
+			<li><a href="http://www.euroairport.com/DE/accueil.php">Deutsch</a></li>
+			<li><a href="http://www.euroairport.com/EN/accueil.php">English</a></li>
+			<li class="last"><a href="javascript:gotoPlanSite();">Plan du site</a></li>
+			</ul>
+		</div>
+		<div class="header-search">
+		<form method="get" action="../FR/recherche.php">
+			<input value="Chercher" id="InputRecherche" name="mots" onclick="javascript:this.value='';" type="text">
+			<input src="test%203_fichiers/button_search.png" value="submit" class="submit" type="image">
+		</form>
+		</div>
+	
+	</div>
+	
+	<div class="container">
+		<div class="sidebar">
+			 <div class="box-ads-sidebar1"><a href="javascript:publicite('http://www.fly-euroairport.com/fr/index.html',%2090)" border="0"><img src="test%203_fichiers/6997.gif" border="0" height="100" width="160"></a></div>
+						<div id="countdown_container">
+				<span class="title">Compte à rebours</span>
+				<div id="countdown"></div>
+			</div>
+			<ul class="sidebar-navigation"><li class="itemA"><a href="http://www.euroairport.com/sysmodules/RBS_page/admin/redirect.php?id=327&amp;lang=FR">Vols</a></li>
+<li class="itemM"><a href="http://www.euroairport.com/sysmodules/RBS_page/admin/redirect.php?id=497&amp;lang=FR">Passagers</a></li>
+<li class="itemC"><a href="http://www.euroairport.com/sysmodules/RBS_page/admin/redirect.php?id=64&amp;lang=FR">Stationnement</a></li>
+<li class="itemF"><a href="http://www.euroairport.com/sysmodules/RBS_page/admin/redirect.php?id=83&amp;lang=FR">L'EuroAirport</a></li>
+			</ul>
+				<div class="sub-sidebar-navigation">
+				<ul class="navlist">
+<li><a href="http://www.euroairport.com/sysmodules/RBS_page/admin/redirect.php?id=83&amp;lang=FR">Autoportrait</a></li><li><a href="http://www.euroairport.com/sysmodules/RBS_page/admin/redirect.php?id=328&amp;lang=FR">Publication / Informations récentes</a></li><li><a href="http://www.euroairport.com/sysmodules/RBS_page/admin/redirect.php?id=563&amp;lang=FR">EAP EXPRESS</a></li><li><a href="http://www.euroairport.com/sysmodules/RBS_page/admin/redirect.php?id=94&amp;lang=FR">L'environnement économique</a></li><li><a href="http://www.euroairport.com/sysmodules/RBS_page/admin/redirect.php?id=95&amp;lang=FR">FAQ - Questions courantes</a>
+<ul class="subnavlist"><li class="active"><a href="http://www.euroairport.com/sysmodules/RBS_page/admin/redirect.php?id=95&amp;lang=FR">Questions générales</a></li><li><a href="http://www.euroairport.com/sysmodules/RBS_page/admin/redirect.php?id=329&amp;lang=FR">Stationnement</a></li><li><a href="http://www.euroairport.com/sysmodules/RBS_page/admin/redirect.php?id=330&amp;lang=FR">Environnement</a></li><li><a href="http://www.euroairport.com/sysmodules/RBS_page/admin/redirect.php?id=395&amp;lang=FR">ILS 33</a></li></ul></li>
+<li><a href="http://www.euroairport.com/sysmodules/RBS_page/admin/redirect.php?id=144&amp;lang=FR">Emplois</a></li><li><a href="http://www.euroairport.com/sysmodules/RBS_page/admin/redirect.php?id=165&amp;lang=FR">Contact</a></li></ul>
+				</div>
+				
+				
+			<ul class="sidebar-navigation">
+
+<li class="itemG"><a href="http://www.euroairport.com/sysmodules/RBS_page/admin/redirect.php?id=232&amp;lang=FR">Environnement</a></li>
+<li class="itemE"><a href="http://www.euroairport.com/sysmodules/RBS_page/admin/redirect.php?id=281&amp;lang=FR">Professionnels</a></li>
+<li class="itemH"><a href="http://www.euroairport.com/sysmodules/RBS_page/admin/redirect.php?id=479&amp;lang=FR">Informations importantes</a></li>
+<li class="itemI"><a href="http://www.euroairport.com/sysmodules/RBS_page/admin/redirect.php?id=334&amp;lang=FR">FAQ - Questions courantes</a></li>
+<li class="itemJ"><a href="http://www.euroairport.com/sysmodules/RBS_page/admin/redirect.php?id=333&amp;lang=FR">Contact</a></li>
+<li class="itemZ"><a href="http://www.fly-euroairport.com/fr/index.html" target="_blank">Fly-EuroAirport.com</a></li></ul>			 <div class="box-ads-sidebar2"><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,0,0" id="pub98" align="" height="320" width="160"><param name="movie" value="../ftp/7721.swf"> <param name="quality" value="high"> <embed src="test%203_fichiers/7721.swf" quality="high" name="pub98" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" align="" height="320" width="160"></object></div>
+		</div>
+		<div class="content">
+			<table bgcolor="white" border="0" bordercolor="red" cellpadding="0" cellspacing="0" width="100%">
+				<tbody><tr>
+					<td>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tbody><tr>
+<td width="14px"><img src="test%203_fichiers/1x1.gif" border="0" height="1px" width="14px"></td>
+<td valign="top">
+<!-- colonne de contenu -->
+<table border="0" cellpadding="0" cellspacing="0" width="100%"><tbody><tr><td><table border="0" cellpadding="0" cellspacing="0" width="100%"><tbody><tr><td valign="top"><div rbstype="1" rbsid="979" width="100%"><h1>Questions - réponses</h1><br></div></td></tr></tbody></table></td></tr><tr><td><table border="0" cellpadding="0" cellspacing="0" width="100%"><tbody><tr><td valign="top"><div rbstype="55" rbsid="980" width="100%"><span class="TexteSTitre">FAQ &gt; <a class="TexteSTitre" href="http://www.euroairport.com/FR/faq.php?PAGEID=95&amp;PAGEDYNID=">Voyageurs</a></span><span class="TexteSTitre"> &gt; </span><a class="TexteSTitre" href="http://www.euroairport.com/FR/faq.php?PAGEID=95&amp;PAGEDYNID=&amp;theme=428">Questions générales</a><br><br><br><br><table border="0" bordercolor="black" cellpadding="0" cellspacing="0" width="100%">
+<tbody><tr>
+	<td>&#8226; &nbsp;<a href="#faq_41" class="FAQ_question_lien">Où se trouve l'EuroAirport ?</a></td>
+</tr>
+<tr>
+	<td>&#8226; &nbsp;<a href="#faq_47" class="FAQ_question_lien">Est-ce que l'EuroAirport peut me renseigner sur le prix des billets d'avion ?</a></td>
+</tr>
+<tr>
+	<td>&#8226; &nbsp;<a href="#faq_55" class="FAQ_question_lien">Pouvez-vous m'indiquer un hôtel près de l'EuroAirport ?</a></td>
+</tr>
+<tr>
+	<td>&#8226; &nbsp;<a href="#faq_68" class="FAQ_question_lien">Y a-t-il des connexions directes par bus entre l'EuroAirport, Mulhouse, Bâle et Freibourg ?</a></td>
+</tr>
+<tr>
+	<td>&#8226; &nbsp;<a href="#faq_53" class="FAQ_question_lien">Combien coûte le stationnement à l'EuroAirport?</a></td>
+</tr>
+<tr>
+	<td>&#8226; &nbsp;<a href="#faq_46" class="FAQ_question_lien">Quelles langues parlez-vous à l'EuroAiport?</a></td>
+</tr>
+<tr>
+	<td>&#8226; &nbsp;<a href="#faq_42" class="FAQ_question_lien">Quelle monnaie puis-je utiliser à l'EuroAirport ?</a></td>
+</tr>
+<tr>
+	<td>&#8226; &nbsp;<a href="#faq_43" class="FAQ_question_lien">Peut-on passer la frontière entre la France et la Suisse à l'intérieur de l'aérogare sans billet d'avion ?</a></td>
+</tr>
+<tr>
+	<td>&#8226; &nbsp;<a href="#faq_45" class="FAQ_question_lien">Comment puis-je postuler pour un emploi ou un stage à l'EuroAirport ?</a></td>
+</tr>
+<tr>
+	<td>&#8226; &nbsp;<a href="#faq_44" class="FAQ_question_lien">Est-ce que les chariots à bagages sont payants à l'EuroAirport ? J'ai besoin de quelle devise ?</a></td>
+</tr>
+</tbody></table>
+<br><hr color="#F0B505"><br><table border="0" bordercolor="black" cellpadding="0" cellspacing="0" width="100%">
+<tbody><tr>
+	<td class="TexteSTitre"><a name="faq_41"></a>Où se trouve l'EuroAirport ?</td>
+</tr>
+<tr>
+	<td class="FAQ-reponse">L'EuroAirport est situé sur le territoire 
+français, dans la région trinationale du Rhin supérieur, c'est-à-dire 
+tout près de la Suisse et de l'Allemagne.</td>
+</tr><tr>
+	<td><img src="test%203_fichiers/1x1.gif" border="0" height="15px" width="1"></td>
+</tr>
+<tr>
+	<td><img src="test%203_fichiers/longs_points.gif" border="0"></td>
+</tr>
+<tr>
+	<td><img src="test%203_fichiers/1x1.gif" border="0" height="15px" width="1"></td>
+</tr>
+<tr>
+	<td class="TexteSTitre"><a name="faq_47"></a>Est-ce que l'EuroAirport peut me renseigner sur le prix des billets d'avion ?</td>
+</tr>
+<tr>
+	<td class="FAQ-reponse">Nous n'avons pas d'informations sur le prix des
+ billets d'avion. Merci de vous adresser à votre agence de voyages 
+habituelle ou au central de réservation de la compagnie de votre choix.</td>
+</tr><tr>
+	<td><img src="test%203_fichiers/1x1.gif" border="0" height="15px" width="1"></td>
+</tr>
+<tr>
+	<td><img src="test%203_fichiers/longs_points.gif" border="0"></td>
+</tr>
+<tr>
+	<td><img src="test%203_fichiers/1x1.gif" border="0" height="15px" width="1"></td>
+</tr>
+<tr>
+	<td class="TexteSTitre"><a name="faq_55"></a>Pouvez-vous m'indiquer un hôtel près de l'EuroAirport ?</td>
+</tr>
+<tr>
+	<td class="FAQ-reponse">Pour plus d'informations sur les hôtels près de l'EuroAirport, veuillez contacter l'Office de Tourisme à Mulhouse <br>
+(Tél : +33 3 89 35 48 48) ou à Bâle (Tél : +41 61 268 68 68).</td>
+</tr><tr>
+	<td><img src="test%203_fichiers/1x1.gif" border="0" height="15px" width="1"></td>
+</tr>
+<tr>
+	<td><img src="test%203_fichiers/longs_points.gif" border="0"></td>
+</tr>
+<tr>
+	<td><img src="test%203_fichiers/1x1.gif" border="0" height="15px" width="1"></td>
+</tr>
+<tr>
+	<td class="TexteSTitre"><a name="faq_68"></a>Y a-t-il des connexions directes par bus entre l'EuroAirport, Mulhouse, Bâle et Freibourg ?</td>
+</tr>
+<tr>
+	<td class="FAQ-reponse">Oui. Vous trouverez les informations correspondantes dans la rubrique Passagers, puis Accès, puis En bus.</td>
+</tr><tr>
+	<td><img src="test%203_fichiers/1x1.gif" border="0" height="15px" width="1"></td>
+</tr>
+<tr>
+	<td><img src="test%203_fichiers/longs_points.gif" border="0"></td>
+</tr>
+<tr>
+	<td><img src="test%203_fichiers/1x1.gif" border="0" height="15px" width="1"></td>
+</tr>
+<tr>
+	<td class="TexteSTitre"><a name="faq_53"></a>Combien coûte le stationnement à l'EuroAirport?</td>
+</tr>
+<tr>
+	<td class="FAQ-reponse">Vous trouverez les tarifs en cours dans la rubrique Stationnement, puis Tarifs.</td>
+</tr><tr>
+	<td><img src="test%203_fichiers/1x1.gif" border="0" height="15px" width="1"></td>
+</tr>
+<tr>
+	<td><img src="test%203_fichiers/longs_points.gif" border="0"></td>
+</tr>
+<tr>
+	<td><img src="test%203_fichiers/1x1.gif" border="0" height="15px" width="1"></td>
+</tr>
+<tr>
+	<td class="TexteSTitre"><a name="faq_46"></a>Quelles langues parlez-vous à l'EuroAiport?</td>
+</tr>
+<tr>
+	<td class="FAQ-reponse">Nous parlons le français et l'allemand, les langues de la région, y compris l'anglais, langue des voyageurs internationaux.</td>
+</tr><tr>
+	<td><img src="test%203_fichiers/1x1.gif" border="0" height="15px" width="1"></td>
+</tr>
+<tr>
+	<td><img src="test%203_fichiers/longs_points.gif" border="0"></td>
+</tr>
+<tr>
+	<td><img src="test%203_fichiers/1x1.gif" border="0" height="15px" width="1"></td>
+</tr>
+<tr>
+	<td class="TexteSTitre"><a name="faq_42"></a>Quelle monnaie puis-je utiliser à l'EuroAirport ?</td>
+</tr>
+<tr>
+	<td class="FAQ-reponse">Nous acceptons des Euros (côté français) et des Francs suisses (côté suisse).</td>
+</tr><tr>
+	<td><img src="test%203_fichiers/1x1.gif" border="0" height="15px" width="1"></td>
+</tr>
+<tr>
+	<td><img src="test%203_fichiers/longs_points.gif" border="0"></td>
+</tr>
+<tr>
+	<td><img src="test%203_fichiers/1x1.gif" border="0" height="15px" width="1"></td>
+</tr>
+<tr>
+	<td class="TexteSTitre"><a name="faq_43"></a>Peut-on passer la frontière entre la France et la Suisse à l'intérieur de l'aérogare sans billet d'avion ?</td>
+</tr>
+<tr>
+	<td class="FAQ-reponse">Oui, comme piéton, vous pouvez passer la 
+frontière entre la France et la Suisse à l'intérieur de l'aérogare, sans
+ billet d'avion, avec une pièce d'identité en cours de validité.<br>
+Ceci est possible au niveau départ (niveau 3), entre 04h00 et jusqu'à 30 minutes après la dernière arrivée (environ 00h30).<br>
+<br>
+Par contre, il n'est pas possible de passer la frontière en voiture au niveau des parkings français et suisses.</td>
+</tr><tr>
+	<td><img src="test%203_fichiers/1x1.gif" border="0" height="15px" width="1"></td>
+</tr>
+<tr>
+	<td><img src="test%203_fichiers/longs_points.gif" border="0"></td>
+</tr>
+<tr>
+	<td><img src="test%203_fichiers/1x1.gif" border="0" height="15px" width="1"></td>
+</tr>
+<tr>
+	<td class="TexteSTitre"><a name="faq_45"></a>Comment puis-je postuler pour un emploi ou un stage à l'EuroAirport ?</td>
+</tr>
+<tr>
+	<td class="FAQ-reponse">Merci d'adresser votre candidature à l'adresse suivante :<br>
+Département des Ressources Humaines<br>
+Aéroport de Bâle-Mulhouse<br>
+F-68304 Saint-Louis Cedex<br>
+<br>
+ou bien :<br>
+Personalabteilung<br>
+Flughafen Basel-Mulhouse<br>
+CH-4030 Basel<br>
+<br>
+Merci de votre patience.<br>
+Nous avons beaucoup de demandes pour très peu de postes.<br>
+Bon courage !</td>
+</tr><tr>
+	<td><img src="test%203_fichiers/1x1.gif" border="0" height="15px" width="1"></td>
+</tr>
+<tr>
+	<td><img src="test%203_fichiers/longs_points.gif" border="0"></td>
+</tr>
+<tr>
+	<td><img src="test%203_fichiers/1x1.gif" border="0" height="15px" width="1"></td>
+</tr>
+<tr>
+	<td class="TexteSTitre"><a name="faq_44"></a>Est-ce que les chariots à bagages sont payants à l'EuroAirport ? J'ai besoin de quelle devise ?</td>
+</tr>
+<tr>
+	<td class="FAQ-reponse">Nos chariots à bagages sont gratuits à l'EuroAirport.</td>
+</tr><tr>
+	<td><img src="test%203_fichiers/1x1.gif" border="0" height="15px" width="1"></td>
+</tr>
+<tr>
+	<td><img src="test%203_fichiers/longs_points.gif" border="0"></td>
+</tr>
+<tr>
+	<td><img src="test%203_fichiers/1x1.gif" border="0" height="15px" width="1"></td>
+</tr>
+</tbody></table>
+<br></div></td></tr></tbody></table></td></tr></tbody></table>
+<!-- colonne de contenu -->
+</td>
+<td width="14px"><img src="test%203_fichiers/1x1.gif" border="0" height="1px" width="14px"></td>
+</tr>
+</tbody></table>	
+					</td>
+				</tr>
+			</tbody></table>
+
+		<div>&nbsp;</div>
+
+		</div>
+	</div>
+</div>
+
+<div class="footer"><a href="#" title="top"><img src="test%203_fichiers/returntop.gif"></a></div> 
+
+<!-- </form>-->
+<div class="copyright">
+<div class="copyrightleft">© 2002-2011 EuroAirport Basel-Mulhouse-Freiburg. <a href="http://www.euroairport.com/sysmodules/RBS_page/admin/redirect.php?id=245" title="copyright">Tous droits réservés. Conditions générales.</a>
+</div><div class="copyrightright"><strong>
+Réservez vos vols au départ et à l'arrivé de l'EuroAirport<br>aux meilleurs prix sur <a href="http://www.fly-euroairport.com/fr/index.html" target="_blank">www.fly-euroairport.com</a>
+</strong></div>
+</div>
+<br><br>
+<script type="text/javascript"> 
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www."); 
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E")); 
+</script><script src="test%203_fichiers/ga.js" type="text/javascript"></script> 
+<script type="text/javascript"> 
+try { 
+var pageTracker = _gat._getTracker("UA-6119648-2"); 
+pageTracker._trackPageview(); 
+} catch(err) {}</script> 
+
+
+
+</body></html>

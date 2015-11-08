@@ -1,0 +1,1337 @@
+INIT task_GestionFich
+
+Exception in thread <class 'Tasks.Task_GestionFich'>:
+Traceback (most recent call last):
+  File "C:\Python26\lib\threading.py", line 532, in __bootstrap_inner
+    self.run()
+  File "C:\TERAMOSS\Tasks.py", line 126, in run
+    if (stop_event.isSet()):
+NameError: global name 'stop_event' is not defined
+
+Traceback (most recent call last):
+  File "C:\TERAMOSS\MyConfirm.py", line 56, in CloseApp
+    self.Close(True)
+RuntimeError: maximum recursion depth exceeded
+Traceback (most recent call last):
+  File "C:\TERAMOSS\GO_TEST_RADAR_V2.py", line 75, in OnExit
+    stop_event.set()
+NameError: global name 'stop_event' is not defined
+Traceback (most recent call last):
+  File "C:\TERAMOSS\GO_TEST_RADAR_V2.py", line 117, in <module>
+    stop_event.set()
+NameError: name 'stop_event' is not defined
+
+-----------------MON MAIN------------------
+12/10/2015  07:37:16
+GO_TEST_RADAR_V2.MainAppIHM.OnInit
+
+DANS  <class 'Tasks.Task_GestionFich'> 
+
+debutLancementAppli =  12/10/2015  07:37:16
+debutLancementAppli =  12/10/2015  07:37:16
+debutLancementAppli =  12/10/2015  07:37:16
+debutLancementAppli =  12/10/2015  07:37:16
+debutLancementAppli =  12/10/2015  07:37:16
+debutLancementAppli =  12/10/2015  07:37:16
+debutLancementAppli =  12/10/2015  07:37:16
+debutLancementAppli =  12/10/2015  07:37:16
+debutLancementAppli =  12/10/2015  07:37:16
+debutLancementAppli =  12/10/2015  07:37:16
+debutLancementAppli =  12/10/2015  07:37:16
+debutLancementAppli =  12/10/2015  07:37:16
+debutLancementAppli =  12/10/2015  07:37:16
+debutLancementAppli =  12/10/2015  07:37:16
+debutLancementAppli =  12/10/2015  07:37:16
+TimerHeurePC can't STOP
+TimerSignalVie can't STOP
+timerUpdateIHM can't STOP
+INIT task_GestionFich
+
+Exception in thread <class 'Tasks.Task_GestionFich'>:
+Traceback (most recent call last):
+  File "C:\Python26\lib\threading.py", line 532, in __bootstrap_inner
+    self.run()
+  File "C:\TERAMOSS\Tasks.py", line 126, in run
+    if (stop_event.isSet()):
+NameError: global name 'stop_event' is not defined
+
+Traceback (most recent call last):
+  File "C:\TERAMOSS\MyConfirm.py", line 56, in CloseApp
+    self.Close(True)
+RuntimeError: maximum recursion depth exceeded
+Traceback (most recent call last):
+  File "C:\TERAMOSS\GO_TEST_RADAR_V2.py", line 77, in OnExit
+    self.My_task_LectTrame.join()
+AttributeError: 'MainAppIHM' object has no attribute 'My_task_LectTrame'
+
+-----------------MON MAIN------------------
+12/10/2015  07:38:26
+GO_TEST_RADAR_V2.MainAppIHM.OnInit
+
+DANS  <class 'Tasks.Task_GestionFich'> 
+
+debutLancementAppli =  12/10/2015  07:38:26
+debutLancementAppli =  12/10/2015  07:38:26
+debutLancementAppli =  12/10/2015  07:38:26
+debutLancementAppli =  12/10/2015  07:38:26
+debutLancementAppli =  12/10/2015  07:38:26
+debutLancementAppli =  12/10/2015  07:38:26
+debutLancementAppli =  12/10/2015  07:38:26
+debutLancementAppli =  12/10/2015  07:38:26
+debutLancementAppli =  12/10/2015  07:38:26
+debutLancementAppli =  12/10/2015  07:38:26
+debutLancementAppli =  12/10/2015  07:38:26
+debutLancementAppli =  12/10/2015  07:38:26
+debutLancementAppli =  12/10/2015  07:38:26
+debutLancementAppli =  12/10/2015  07:38:26
+debutLancementAppli =  12/10/2015  07:38:26
+TimerHeurePC can't STOP
+TimerSignalVie can't STOP
+timerUpdateIHM can't STOP
+Waiting for all the threads to finish.........
+12/10/2015  07:38:34
+---------------- FIN DU PROGRAMME --------------------
+INIT task_GestionFich
+
+Exception in thread <class 'Tasks.Task_GestionFich'>:
+Traceback (most recent call last):
+  File "C:\Python26\lib\threading.py", line 532, in __bootstrap_inner
+    self.run()
+  File "C:\TERAMOSS\Tasks.py", line 126, in run
+    if (stop_event.isSet()):
+NameError: global name 'stop_event' is not defined
+
+Traceback (most recent call last):
+  File "C:\TERAMOSS\MyConfirm.py", line 56, in CloseApp
+    self.Close(True)
+RuntimeError: maximum recursion depth exceeded
+
+-----------------MON MAIN------------------
+12/10/2015  07:39:13
+GO_TEST_RADAR_V2.MainAppIHM.OnInit
+
+DANS  <class 'Tasks.Task_GestionFich'> 
+
+debutLancementAppli =  12/10/2015  07:39:14
+debutLancementAppli =  12/10/2015  07:39:14
+debutLancementAppli =  12/10/2015  07:39:14
+debutLancementAppli =  12/10/2015  07:39:14
+debutLancementAppli =  12/10/2015  07:39:14
+debutLancementAppli =  12/10/2015  07:39:14
+debutLancementAppli =  12/10/2015  07:39:14
+debutLancementAppli =  12/10/2015  07:39:14
+debutLancementAppli =  12/10/2015  07:39:14
+debutLancementAppli =  12/10/2015  07:39:14
+debutLancementAppli =  12/10/2015  07:39:14
+debutLancementAppli =  12/10/2015  07:39:14
+debutLancementAppli =  12/10/2015  07:39:14
+debutLancementAppli =  12/10/2015  07:39:14
+debutLancementAppli =  12/10/2015  07:39:14
+TimerHeurePC can't STOP
+TimerSignalVie can't STOP
+timerUpdateIHM can't STOP
+OnExit MainAppIHM
+
+12/10/2015  07:39:22
+---------------- FIN DU PROGRAMME --------------------
+INIT task_GestionFich
+
+Exception in thread <class 'Tasks.Task_GestionFich'>:
+Traceback (most recent call last):
+  File "C:\Python26\lib\threading.py", line 532, in __bootstrap_inner
+    self.run()
+  File "C:\TERAMOSS\Tasks.py", line 126, in run
+    if (stop_event.isSet()):
+NameError: global name 'stop_event' is not defined
+
+Traceback (most recent call last):
+  File "C:\TERAMOSS\MyIHM.py", line 175, in OpenPreferencePage
+    PrefPage = PagePreferences(self)
+  File "C:\TERAMOSS\MyPagePreferences.py", line 26, in __init__
+    if Header.FEN_PREF==0:	
+NameError: global name 'Header' is not defined
+Traceback (most recent call last):
+  File "C:\TERAMOSS\MyIHM.py", line 175, in OpenPreferencePage
+    PrefPage = PagePreferences(self)
+  File "C:\TERAMOSS\MyPagePreferences.py", line 26, in __init__
+    if Header.FEN_PREF==0:	
+NameError: global name 'Header' is not defined
+Traceback (most recent call last):
+  File "C:\TERAMOSS\MyIHM.py", line 175, in OpenPreferencePage
+    PrefPage = PagePreferences(self)
+  File "C:\TERAMOSS\MyPagePreferences.py", line 26, in __init__
+    if Header.FEN_PREF==0:	
+NameError: global name 'Header' is not defined
+Traceback (most recent call last):
+  File "C:\TERAMOSS\MyIHM.py", line 175, in OpenPreferencePage
+    PrefPage = PagePreferences(self)
+  File "C:\TERAMOSS\MyPagePreferences.py", line 26, in __init__
+    if Header.FEN_PREF==0:	
+NameError: global name 'Header' is not defined
+Traceback (most recent call last):
+  File "C:\TERAMOSS\MyIHM.py", line 175, in OpenPreferencePage
+    PrefPage = PagePreferences(self)
+  File "C:\TERAMOSS\MyPagePreferences.py", line 26, in __init__
+    if Header.FEN_PREF==0:	
+NameError: global name 'Header' is not defined
+Traceback (most recent call last):
+  File "C:\TERAMOSS\MyConfirm.py", line 56, in CloseApp
+    self.Close(True)
+RuntimeError: maximum recursion depth exceeded
+
+-----------------MON MAIN------------------
+14/10/2015  06:28:47
+GO_TEST_RADAR_V2.MainAppIHM.OnInit
+
+DANS  <class 'Tasks.Task_GestionFich'> 
+
+debutLancementAppli =  14/10/2015  06:28:48
+debutLancementAppli =  14/10/2015  06:28:48
+debutLancementAppli =  14/10/2015  06:28:48
+debutLancementAppli =  14/10/2015  06:28:48
+debutLancementAppli =  14/10/2015  06:28:48
+debutLancementAppli =  14/10/2015  06:28:48
+debutLancementAppli =  14/10/2015  06:28:48
+debutLancementAppli =  14/10/2015  06:28:48
+debutLancementAppli =  14/10/2015  06:28:48
+debutLancementAppli =  14/10/2015  06:28:48
+debutLancementAppli =  14/10/2015  06:28:48
+debutLancementAppli =  14/10/2015  06:28:48
+debutLancementAppli =  14/10/2015  06:28:48
+debutLancementAppli =  14/10/2015  06:28:48
+debutLancementAppli =  14/10/2015  06:28:48
+TimerHeurePC can't STOP
+TimerSignalVie can't STOP
+timerUpdateIHM can't STOP
+OnExit MainAppIHM
+
+14/10/2015  06:28:59
+---------------- FIN DU PROGRAMME --------------------
+INIT task_GestionFich
+
+Exception in thread <class 'Tasks.Task_GestionFich'>:
+Traceback (most recent call last):
+  File "C:\Python26\lib\threading.py", line 532, in __bootstrap_inner
+    self.run()
+  File "C:\TERAMOSS\Tasks.py", line 126, in run
+    if (stop_event.isSet()):
+NameError: global name 'stop_event' is not defined
+
+Traceback (most recent call last):
+  File "C:\TERAMOSS\MyIHM.py", line 175, in OpenPreferencePage
+    PrefPage = PagePreferences(self)
+  File "C:\TERAMOSS\MyPagePreferences.py", line 26, in __init__
+    if FEN_PREF==0:	
+UnboundLocalError: local variable 'FEN_PREF' referenced before assignment
+Traceback (most recent call last):
+  File "C:\TERAMOSS\MyIHM.py", line 175, in OpenPreferencePage
+    PrefPage = PagePreferences(self)
+  File "C:\TERAMOSS\MyPagePreferences.py", line 26, in __init__
+    if FEN_PREF==0:	
+UnboundLocalError: local variable 'FEN_PREF' referenced before assignment
+Traceback (most recent call last):
+  File "C:\TERAMOSS\MyIHM.py", line 175, in OpenPreferencePage
+    PrefPage = PagePreferences(self)
+  File "C:\TERAMOSS\MyPagePreferences.py", line 26, in __init__
+    if FEN_PREF==0:	
+UnboundLocalError: local variable 'FEN_PREF' referenced before assignment
+Traceback (most recent call last):
+  File "C:\TERAMOSS\MyIHM.py", line 175, in OpenPreferencePage
+    PrefPage = PagePreferences(self)
+  File "C:\TERAMOSS\MyPagePreferences.py", line 26, in __init__
+    if FEN_PREF==0:	
+UnboundLocalError: local variable 'FEN_PREF' referenced before assignment
+Traceback (most recent call last):
+  File "C:\TERAMOSS\MyIHM.py", line 175, in OpenPreferencePage
+    PrefPage = PagePreferences(self)
+  File "C:\TERAMOSS\MyPagePreferences.py", line 26, in __init__
+    if FEN_PREF==0:	
+UnboundLocalError: local variable 'FEN_PREF' referenced before assignment
+Traceback (most recent call last):
+  File "C:\TERAMOSS\MyIHM.py", line 175, in OpenPreferencePage
+    PrefPage = PagePreferences(self)
+  File "C:\TERAMOSS\MyPagePreferences.py", line 26, in __init__
+    if FEN_PREF==0:	
+UnboundLocalError: local variable 'FEN_PREF' referenced before assignment
+Traceback (most recent call last):
+  File "C:\TERAMOSS\MyIHM.py", line 175, in OpenPreferencePage
+    PrefPage = PagePreferences(self)
+  File "C:\TERAMOSS\MyPagePreferences.py", line 26, in __init__
+    if FEN_PREF==0:	
+UnboundLocalError: local variable 'FEN_PREF' referenced before assignment
+Traceback (most recent call last):
+  File "C:\TERAMOSS\MyConfirm.py", line 56, in CloseApp
+    self.Close(True)
+RuntimeError: maximum recursion depth exceeded
+
+-----------------MON MAIN------------------
+14/10/2015  06:29:20
+GO_TEST_RADAR_V2.MainAppIHM.OnInit
+
+DANS  <class 'Tasks.Task_GestionFich'> 
+
+debutLancementAppli =  14/10/2015  06:29:20
+debutLancementAppli =  14/10/2015  06:29:20
+debutLancementAppli =  14/10/2015  06:29:20
+debutLancementAppli =  14/10/2015  06:29:20
+debutLancementAppli =  14/10/2015  06:29:20
+debutLancementAppli =  14/10/2015  06:29:20
+debutLancementAppli =  14/10/2015  06:29:20
+debutLancementAppli =  14/10/2015  06:29:20
+debutLancementAppli =  14/10/2015  06:29:20
+debutLancementAppli =  14/10/2015  06:29:20
+debutLancementAppli =  14/10/2015  06:29:20
+debutLancementAppli =  14/10/2015  06:29:20
+debutLancementAppli =  14/10/2015  06:29:20
+debutLancementAppli =  14/10/2015  06:29:20
+debutLancementAppli =  14/10/2015  06:29:20
+TimerHeurePC can't STOP
+TimerSignalVie can't STOP
+timerUpdateIHM can't STOP
+OnExit MainAppIHM
+
+14/10/2015  06:29:27
+---------------- FIN DU PROGRAMME --------------------
+INIT task_GestionFich
+
+Exception in thread <class 'Tasks.Task_GestionFich'>:
+Traceback (most recent call last):
+  File "C:\Python26\lib\threading.py", line 532, in __bootstrap_inner
+    self.run()
+  File "C:\TERAMOSS\Tasks.py", line 126, in run
+    if (stop_event.isSet()):
+NameError: global name 'stop_event' is not defined
+
+Traceback (most recent call last):
+  File "C:\TERAMOSS\MyIHM.py", line 175, in OpenPreferencePage
+    PrefPage = PagePreferences(self)
+  File "C:\TERAMOSS\MyPagePreferences.py", line 26, in __init__
+    if FEN_PREF==0:	
+UnboundLocalError: local variable 'FEN_PREF' referenced before assignment
+Traceback (most recent call last):
+  File "C:\TERAMOSS\MyIHM.py", line 175, in OpenPreferencePage
+    PrefPage = PagePreferences(self)
+  File "C:\TERAMOSS\MyPagePreferences.py", line 26, in __init__
+    if FEN_PREF==0:	
+UnboundLocalError: local variable 'FEN_PREF' referenced before assignment
+Traceback (most recent call last):
+  File "C:\TERAMOSS\MyIHM.py", line 175, in OpenPreferencePage
+    PrefPage = PagePreferences(self)
+  File "C:\TERAMOSS\MyPagePreferences.py", line 26, in __init__
+    if FEN_PREF==0:	
+UnboundLocalError: local variable 'FEN_PREF' referenced before assignment
+Traceback (most recent call last):
+  File "C:\TERAMOSS\MyConfirm.py", line 56, in CloseApp
+    self.Close(True)
+RuntimeError: maximum recursion depth exceeded
+
+-----------------MON MAIN------------------
+14/10/2015  06:32:51
+GO_TEST_RADAR_V2.MainAppIHM.OnInit
+
+DANS  <class 'Tasks.Task_GestionFich'> 
+
+debutLancementAppli =  14/10/2015  06:32:52
+debutLancementAppli =  14/10/2015  06:32:52
+debutLancementAppli =  14/10/2015  06:32:52
+debutLancementAppli =  14/10/2015  06:32:52
+debutLancementAppli =  14/10/2015  06:32:52
+debutLancementAppli =  14/10/2015  06:32:52
+debutLancementAppli =  14/10/2015  06:32:52
+debutLancementAppli =  14/10/2015  06:32:52
+debutLancementAppli =  14/10/2015  06:32:52
+debutLancementAppli =  14/10/2015  06:32:52
+debutLancementAppli =  14/10/2015  06:32:52
+debutLancementAppli =  14/10/2015  06:32:52
+debutLancementAppli =  14/10/2015  06:32:52
+debutLancementAppli =  14/10/2015  06:32:52
+debutLancementAppli =  14/10/2015  06:32:52
+TimerHeurePC can't STOP
+TimerSignalVie can't STOP
+timerUpdateIHM can't STOP
+OnExit MainAppIHM
+
+14/10/2015  06:33:04
+---------------- FIN DU PROGRAMME --------------------
+INIT task_GestionFich
+
+Exception in thread <class 'Tasks.Task_GestionFich'>:
+Traceback (most recent call last):
+  File "C:\Python26\lib\threading.py", line 532, in __bootstrap_inner
+    self.run()
+  File "C:\TERAMOSS\Tasks.py", line 126, in run
+    if (stop_event.isSet()):
+NameError: global name 'stop_event' is not defined
+
+Traceback (most recent call last):
+  File "C:\TERAMOSS\MyIHM.py", line 176, in OpenPreferencePage
+    PrefPage.Show()
+AttributeError: 'NoneType' object has no attribute 'Show'
+Traceback (most recent call last):
+  File "C:\TERAMOSS\MyIHM.py", line 176, in OpenPreferencePage
+    PrefPage.Show()
+AttributeError: 'NoneType' object has no attribute 'Show'
+Traceback (most recent call last):
+  File "C:\TERAMOSS\MyIHM.py", line 176, in OpenPreferencePage
+    PrefPage.Show()
+AttributeError: 'NoneType' object has no attribute 'Show'
+Traceback (most recent call last):
+  File "C:\TERAMOSS\MyIHM.py", line 176, in OpenPreferencePage
+    PrefPage.Show()
+AttributeError: 'NoneType' object has no attribute 'Show'
+Traceback (most recent call last):
+  File "C:\TERAMOSS\MyIHM.py", line 176, in OpenPreferencePage
+    PrefPage.Show()
+AttributeError: 'NoneType' object has no attribute 'Show'
+Traceback (most recent call last):
+  File "C:\TERAMOSS\MyIHM.py", line 176, in OpenPreferencePage
+    PrefPage.Show()
+AttributeError: 'NoneType' object has no attribute 'Show'
+Traceback (most recent call last):
+  File "C:\TERAMOSS\MyIHM.py", line 176, in OpenPreferencePage
+    PrefPage.Show()
+AttributeError: 'NoneType' object has no attribute 'Show'
+Traceback (most recent call last):
+  File "C:\TERAMOSS\MyConfirm.py", line 56, in CloseApp
+    self.Close(True)
+RuntimeError: maximum recursion depth exceeded
+
+-----------------MON MAIN------------------
+14/10/2015  06:39:46
+GO_TEST_RADAR_V2.MainAppIHM.OnInit
+
+DANS  <class 'Tasks.Task_GestionFich'> 
+
+debutLancementAppli =  14/10/2015  06:39:46
+debutLancementAppli =  14/10/2015  06:39:46
+debutLancementAppli =  14/10/2015  06:39:46
+debutLancementAppli =  14/10/2015  06:39:46
+debutLancementAppli =  14/10/2015  06:39:46
+debutLancementAppli =  14/10/2015  06:39:46
+debutLancementAppli =  14/10/2015  06:39:46
+debutLancementAppli =  14/10/2015  06:39:46
+debutLancementAppli =  14/10/2015  06:39:46
+debutLancementAppli =  14/10/2015  06:39:46
+debutLancementAppli =  14/10/2015  06:39:46
+debutLancementAppli =  14/10/2015  06:39:46
+debutLancementAppli =  14/10/2015  06:39:46
+debutLancementAppli =  14/10/2015  06:39:46
+debutLancementAppli =  14/10/2015  06:39:46
+TimerHeurePC can't STOP
+TimerSignalVie can't STOP
+timerUpdateIHM can't STOP
+OnExit MainAppIHM
+
+14/10/2015  06:39:56
+---------------- FIN DU PROGRAMME --------------------
+INIT task_GestionFich
+
+Exception in thread <class 'Tasks.Task_GestionFich'>:
+Traceback (most recent call last):
+  File "C:\Python26\lib\threading.py", line 532, in __bootstrap_inner
+    self.run()
+  File "C:\TERAMOSS\Tasks.py", line 126, in run
+    if (stop_event.isSet()):
+NameError: global name 'stop_event' is not defined
+
+Traceback (most recent call last):
+  File "C:\TERAMOSS\MyIHM.py", line 175, in OpenPreferencePage
+    PrefPage = PagePreferences(self)
+  File "C:\TERAMOSS\MyPagePreferences.py", line 26, in __init__
+    if (MyCount==0):
+UnboundLocalError: local variable 'MyCount' referenced before assignment
+Traceback (most recent call last):
+  File "C:\TERAMOSS\MyIHM.py", line 175, in OpenPreferencePage
+    PrefPage = PagePreferences(self)
+  File "C:\TERAMOSS\MyPagePreferences.py", line 26, in __init__
+    if (MyCount==0):
+UnboundLocalError: local variable 'MyCount' referenced before assignment
+Traceback (most recent call last):
+  File "C:\TERAMOSS\MyIHM.py", line 175, in OpenPreferencePage
+    PrefPage = PagePreferences(self)
+  File "C:\TERAMOSS\MyPagePreferences.py", line 26, in __init__
+    if (MyCount==0):
+UnboundLocalError: local variable 'MyCount' referenced before assignment
+Traceback (most recent call last):
+  File "C:\TERAMOSS\MyIHM.py", line 175, in OpenPreferencePage
+    PrefPage = PagePreferences(self)
+  File "C:\TERAMOSS\MyPagePreferences.py", line 26, in __init__
+    if (MyCount==0):
+UnboundLocalError: local variable 'MyCount' referenced before assignment
+Traceback (most recent call last):
+  File "C:\TERAMOSS\MyConfirm.py", line 56, in CloseApp
+    self.Close(True)
+RuntimeError: maximum recursion depth exceeded
+
+-----------------MON MAIN------------------
+14/10/2015  06:46:50
+GO_TEST_RADAR_V2.MainAppIHM.OnInit
+
+DANS  <class 'Tasks.Task_GestionFich'> 
+
+debutLancementAppli =  14/10/2015  06:46:51
+debutLancementAppli =  14/10/2015  06:46:51
+debutLancementAppli =  14/10/2015  06:46:51
+debutLancementAppli =  14/10/2015  06:46:51
+debutLancementAppli =  14/10/2015  06:46:51
+debutLancementAppli =  14/10/2015  06:46:51
+debutLancementAppli =  14/10/2015  06:46:51
+debutLancementAppli =  14/10/2015  06:46:51
+debutLancementAppli =  14/10/2015  06:46:51
+debutLancementAppli =  14/10/2015  06:46:51
+debutLancementAppli =  14/10/2015  06:46:51
+debutLancementAppli =  14/10/2015  06:46:51
+debutLancementAppli =  14/10/2015  06:46:51
+debutLancementAppli =  14/10/2015  06:46:51
+debutLancementAppli =  14/10/2015  06:46:51
+TimerHeurePC can't STOP
+TimerSignalVie can't STOP
+timerUpdateIHM can't STOP
+OnExit MainAppIHM
+
+14/10/2015  06:46:58
+---------------- FIN DU PROGRAMME --------------------
+INIT task_GestionFich
+
+Exception in thread <class 'Tasks.Task_GestionFich'>:
+Traceback (most recent call last):
+  File "C:\Python26\lib\threading.py", line 532, in __bootstrap_inner
+    self.run()
+  File "C:\TERAMOSS\Tasks.py", line 126, in run
+    if (stop_event.isSet()):
+NameError: global name 'stop_event' is not defined
+
+Traceback (most recent call last):
+  File "C:\TERAMOSS\MyIHM.py", line 175, in OpenPreferencePage
+    PrefPage = PagePreferences(self)
+  File "C:\TERAMOSS\MyPagePreferences.py", line 28, in __init__
+    if (MyCount==0):
+UnboundLocalError: local variable 'MyCount' referenced before assignment
+Traceback (most recent call last):
+  File "C:\TERAMOSS\MyIHM.py", line 175, in OpenPreferencePage
+    PrefPage = PagePreferences(self)
+  File "C:\TERAMOSS\MyPagePreferences.py", line 28, in __init__
+    if (MyCount==0):
+UnboundLocalError: local variable 'MyCount' referenced before assignment
+Traceback (most recent call last):
+  File "C:\TERAMOSS\MyConfirm.py", line 56, in CloseApp
+    self.Close(True)
+RuntimeError: maximum recursion depth exceeded
+
+-----------------MON MAIN------------------
+14/10/2015  06:48:53
+GO_TEST_RADAR_V2.MainAppIHM.OnInit
+
+DANS  <class 'Tasks.Task_GestionFich'> 
+
+debutLancementAppli =  14/10/2015  06:48:53
+debutLancementAppli =  14/10/2015  06:48:53
+debutLancementAppli =  14/10/2015  06:48:53
+debutLancementAppli =  14/10/2015  06:48:53
+debutLancementAppli =  14/10/2015  06:48:53
+debutLancementAppli =  14/10/2015  06:48:53
+debutLancementAppli =  14/10/2015  06:48:53
+debutLancementAppli =  14/10/2015  06:48:53
+debutLancementAppli =  14/10/2015  06:48:53
+debutLancementAppli =  14/10/2015  06:48:53
+debutLancementAppli =  14/10/2015  06:48:53
+debutLancementAppli =  14/10/2015  06:48:53
+debutLancementAppli =  14/10/2015  06:48:53
+debutLancementAppli =  14/10/2015  06:48:53
+debutLancementAppli =  14/10/2015  06:48:53
+TimerHeurePC can't STOP
+TimerSignalVie can't STOP
+timerUpdateIHM can't STOP
+OnExit MainAppIHM
+
+14/10/2015  06:49:07
+---------------- FIN DU PROGRAMME --------------------
+INIT task_GestionFich
+
+done.
+
+----------------------------------------------------------------------
+Ran 0 tests in 0.000s
+
+OK
+INIT task_GestionFich
+
+done.
+
+----------------------------------------------------------------------
+Ran 0 tests in 0.000s
+
+OK
+INIT task_GestionFich
+
+Exception in thread <class 'Tasks.Task_GestionFich'>:
+Traceback (most recent call last):
+  File "C:\Python26\lib\threading.py", line 532, in __bootstrap_inner
+    self.run()
+  File "C:\TERAMOSS\Tasks.py", line 126, in run
+    if (stop_event.isSet()):
+NameError: global name 'stop_event' is not defined
+
+Traceback (most recent call last):
+  File "C:\TERAMOSS\MyConfirm.py", line 56, in CloseApp
+    self.Close(True)
+RuntimeError: maximum recursion depth exceeded
+
+-----------------MON MAIN------------------
+14/10/2015  06:55:25
+GO_TEST_RADAR_V2.MainAppIHM.OnInit
+
+DANS  <class 'Tasks.Task_GestionFich'> 
+
+debutLancementAppli =  14/10/2015  06:55:25
+debutLancementAppli =  14/10/2015  06:55:25
+debutLancementAppli =  14/10/2015  06:55:25
+debutLancementAppli =  14/10/2015  06:55:25
+debutLancementAppli =  14/10/2015  06:55:25
+debutLancementAppli =  14/10/2015  06:55:25
+debutLancementAppli =  14/10/2015  06:55:25
+debutLancementAppli =  14/10/2015  06:55:25
+debutLancementAppli =  14/10/2015  06:55:25
+debutLancementAppli =  14/10/2015  06:55:25
+debutLancementAppli =  14/10/2015  06:55:25
+debutLancementAppli =  14/10/2015  06:55:25
+debutLancementAppli =  14/10/2015  06:55:25
+debutLancementAppli =  14/10/2015  06:55:25
+debutLancementAppli =  14/10/2015  06:55:25
+TimerHeurePC can't STOP
+TimerSignalVie can't STOP
+timerUpdateIHM can't STOP
+OnExit MainAppIHM
+
+14/10/2015  06:55:38
+---------------- FIN DU PROGRAMME --------------------
+INIT task_GestionFich
+
+Exception in thread <class 'Tasks.Task_GestionFich'>:
+Traceback (most recent call last):
+  File "C:\Python26\lib\threading.py", line 532, in __bootstrap_inner
+    self.run()
+  File "C:\TERAMOSS\Tasks.py", line 126, in run
+    if (stop_event.isSet()):
+NameError: global name 'stop_event' is not defined
+
+Traceback (most recent call last):
+  File "C:\TERAMOSS\MyIHM.py", line 175, in OpenPreferencePage
+    PrefPage = PagePreferences(self)
+  File "C:\TERAMOSS\MyPagePreferences.py", line 26, in __init__
+    if len(instances) != 0:
+NameError: global name 'instances' is not defined
+Traceback (most recent call last):
+  File "C:\TERAMOSS\MyIHM.py", line 175, in OpenPreferencePage
+    PrefPage = PagePreferences(self)
+  File "C:\TERAMOSS\MyPagePreferences.py", line 26, in __init__
+    if len(instances) != 0:
+NameError: global name 'instances' is not defined
+Traceback (most recent call last):
+  File "C:\TERAMOSS\MyIHM.py", line 175, in OpenPreferencePage
+    PrefPage = PagePreferences(self)
+  File "C:\TERAMOSS\MyPagePreferences.py", line 26, in __init__
+    if len(instances) != 0:
+NameError: global name 'instances' is not defined
+Traceback (most recent call last):
+  File "C:\TERAMOSS\MyIHM.py", line 175, in OpenPreferencePage
+    PrefPage = PagePreferences(self)
+  File "C:\TERAMOSS\MyPagePreferences.py", line 26, in __init__
+    if len(instances) != 0:
+NameError: global name 'instances' is not defined
+Traceback (most recent call last):
+  File "C:\TERAMOSS\MyIHM.py", line 175, in OpenPreferencePage
+    PrefPage = PagePreferences(self)
+  File "C:\TERAMOSS\MyPagePreferences.py", line 26, in __init__
+    if len(instances) != 0:
+NameError: global name 'instances' is not defined
+Traceback (most recent call last):
+  File "C:\TERAMOSS\MyConfirm.py", line 56, in CloseApp
+    self.Close(True)
+RuntimeError: maximum recursion depth exceeded
+
+-----------------MON MAIN------------------
+14/10/2015  06:58:02
+GO_TEST_RADAR_V2.MainAppIHM.OnInit
+
+DANS  <class 'Tasks.Task_GestionFich'> 
+
+debutLancementAppli =  14/10/2015  06:58:02
+debutLancementAppli =  14/10/2015  06:58:02
+debutLancementAppli =  14/10/2015  06:58:02
+debutLancementAppli =  14/10/2015  06:58:02
+debutLancementAppli =  14/10/2015  06:58:02
+debutLancementAppli =  14/10/2015  06:58:02
+debutLancementAppli =  14/10/2015  06:58:02
+debutLancementAppli =  14/10/2015  06:58:02
+debutLancementAppli =  14/10/2015  06:58:02
+debutLancementAppli =  14/10/2015  06:58:02
+debutLancementAppli =  14/10/2015  06:58:02
+debutLancementAppli =  14/10/2015  06:58:02
+debutLancementAppli =  14/10/2015  06:58:02
+debutLancementAppli =  14/10/2015  06:58:02
+debutLancementAppli =  14/10/2015  06:58:02
+TimerHeurePC can't STOP
+TimerSignalVie can't STOP
+timerUpdateIHM can't STOP
+OnExit MainAppIHM
+
+14/10/2015  06:58:11
+---------------- FIN DU PROGRAMME --------------------
+INIT task_GestionFich
+
+Traceback (most recent call last):
+  File "C:\TERAMOSS\MyIHM.py", line 176, in OpenPreferencePage
+    PrefPage.Show()
+  File "C:\Python26\lib\site-packages\wx-2.8-msw-unicode\wx\_core.py", line 9140, in Show
+    return _core_.Window_Show(*args, **kwargs)
+TypeError: in method 'Window_Show', expected argument 1 of type 'wxWindow *'
+Exception in thread <class 'Tasks.Task_GestionFich'>:
+Traceback (most recent call last):
+  File "C:\Python26\lib\threading.py", line 532, in __bootstrap_inner
+    self.run()
+  File "C:\TERAMOSS\Tasks.py", line 126, in run
+    if (stop_event.isSet()):
+NameError: global name 'stop_event' is not defined
+
+Traceback (most recent call last):
+  File "C:\TERAMOSS\MyIHM.py", line 176, in OpenPreferencePage
+    PrefPage.Show()
+  File "C:\Python26\lib\site-packages\wx-2.8-msw-unicode\wx\_core.py", line 9140, in Show
+    return _core_.Window_Show(*args, **kwargs)
+TypeError: in method 'Window_Show', expected argument 1 of type 'wxWindow *'
+Traceback (most recent call last):
+  File "C:\TERAMOSS\MyIHM.py", line 176, in OpenPreferencePage
+    PrefPage.Show()
+  File "C:\Python26\lib\site-packages\wx-2.8-msw-unicode\wx\_core.py", line 9140, in Show
+    return _core_.Window_Show(*args, **kwargs)
+TypeError: in method 'Window_Show', expected argument 1 of type 'wxWindow *'
+Traceback (most recent call last):
+  File "C:\TERAMOSS\MyIHM.py", line 176, in OpenPreferencePage
+    PrefPage.Show()
+  File "C:\Python26\lib\site-packages\wx-2.8-msw-unicode\wx\_core.py", line 9140, in Show
+    return _core_.Window_Show(*args, **kwargs)
+TypeError: in method 'Window_Show', expected argument 1 of type 'wxWindow *'
+Traceback (most recent call last):
+  File "C:\TERAMOSS\MyIHM.py", line 176, in OpenPreferencePage
+    PrefPage.Show()
+  File "C:\Python26\lib\site-packages\wx-2.8-msw-unicode\wx\_core.py", line 9140, in Show
+    return _core_.Window_Show(*args, **kwargs)
+TypeError: in method 'Window_Show', expected argument 1 of type 'wxWindow *'
+Traceback (most recent call last):
+  File "C:\TERAMOSS\MyIHM.py", line 176, in OpenPreferencePage
+    PrefPage.Show()
+  File "C:\Python26\lib\site-packages\wx-2.8-msw-unicode\wx\_core.py", line 9140, in Show
+    return _core_.Window_Show(*args, **kwargs)
+TypeError: in method 'Window_Show', expected argument 1 of type 'wxWindow *'
+Traceback (most recent call last):
+  File "C:\TERAMOSS\MyIHM.py", line 176, in OpenPreferencePage
+    PrefPage.Show()
+  File "C:\Python26\lib\site-packages\wx-2.8-msw-unicode\wx\_core.py", line 9140, in Show
+    return _core_.Window_Show(*args, **kwargs)
+TypeError: in method 'Window_Show', expected argument 1 of type 'wxWindow *'
+Traceback (most recent call last):
+  File "C:\TERAMOSS\MyIHM.py", line 176, in OpenPreferencePage
+    PrefPage.Show()
+  File "C:\Python26\lib\site-packages\wx-2.8-msw-unicode\wx\_core.py", line 9140, in Show
+    return _core_.Window_Show(*args, **kwargs)
+TypeError: in method 'Window_Show', expected argument 1 of type 'wxWindow *'
+Traceback (most recent call last):
+  File "C:\TERAMOSS\MyConfirm.py", line 56, in CloseApp
+    self.Close(True)
+RuntimeError: maximum recursion depth exceeded
+
+-----------------MON MAIN------------------
+14/10/2015  06:59:19
+GO_TEST_RADAR_V2.MainAppIHM.OnInit
+
+DANS  <class 'Tasks.Task_GestionFich'> 
+
+debutLancementAppli =  14/10/2015  06:59:19
+debutLancementAppli =  14/10/2015  06:59:19
+debutLancementAppli =  14/10/2015  06:59:19
+debutLancementAppli =  14/10/2015  06:59:19
+debutLancementAppli =  14/10/2015  06:59:19
+debutLancementAppli =  14/10/2015  06:59:19
+debutLancementAppli =  14/10/2015  06:59:19
+debutLancementAppli =  14/10/2015  06:59:19
+debutLancementAppli =  14/10/2015  06:59:19
+debutLancementAppli =  14/10/2015  06:59:19
+debutLancementAppli =  14/10/2015  06:59:19
+debutLancementAppli =  14/10/2015  06:59:19
+debutLancementAppli =  14/10/2015  06:59:19
+debutLancementAppli =  14/10/2015  06:59:19
+debutLancementAppli =  14/10/2015  06:59:19
+TimerHeurePC can't STOP
+TimerSignalVie can't STOP
+timerUpdateIHM can't STOP
+OnExit MainAppIHM
+
+14/10/2015  06:59:26
+---------------- FIN DU PROGRAMME --------------------
+INIT task_GestionFich
+
+Exception in thread <class 'Tasks.Task_GestionFich'>:
+Traceback (most recent call last):
+  File "C:\Python26\lib\threading.py", line 532, in __bootstrap_inner
+    self.run()
+  File "C:\TERAMOSS\Tasks.py", line 126, in run
+    if (stop_event.isSet()):
+NameError: global name 'stop_event' is not defined
+
+Traceback (most recent call last):
+  File "C:\TERAMOSS\MyConfirm.py", line 56, in CloseApp
+    self.Close(True)
+RuntimeError: maximum recursion depth exceeded
+
+-----------------MON MAIN------------------
+14/10/2015  07:03:55
+GO_TEST_RADAR_V2.MainAppIHM.OnInit
+
+DANS  <class 'Tasks.Task_GestionFich'> 
+
+debutLancementAppli =  14/10/2015  07:03:55
+debutLancementAppli =  14/10/2015  07:03:55
+debutLancementAppli =  14/10/2015  07:03:55
+debutLancementAppli =  14/10/2015  07:03:55
+debutLancementAppli =  14/10/2015  07:03:55
+debutLancementAppli =  14/10/2015  07:03:55
+debutLancementAppli =  14/10/2015  07:03:55
+debutLancementAppli =  14/10/2015  07:03:55
+debutLancementAppli =  14/10/2015  07:03:55
+debutLancementAppli =  14/10/2015  07:03:55
+debutLancementAppli =  14/10/2015  07:03:55
+debutLancementAppli =  14/10/2015  07:03:55
+debutLancementAppli =  14/10/2015  07:03:55
+debutLancementAppli =  14/10/2015  07:03:55
+debutLancementAppli =  14/10/2015  07:03:55
+TimerHeurePC can't STOP
+TimerSignalVie can't STOP
+timerUpdateIHM can't STOP
+OnExit MainAppIHM
+
+14/10/2015  07:04:02
+---------------- FIN DU PROGRAMME --------------------
+INIT task_GestionFich
+
+Exception in thread <class 'Tasks.Task_GestionFich'>:
+Traceback (most recent call last):
+  File "C:\Python26\lib\threading.py", line 532, in __bootstrap_inner
+    self.run()
+  File "C:\TERAMOSS\Tasks.py", line 126, in run
+    if (stop_event.isSet()):
+NameError: global name 'stop_event' is not defined
+
+Traceback (most recent call last):
+  File "C:\TERAMOSS\MyConfirm.py", line 56, in CloseApp
+    self.Close(True)
+RuntimeError: maximum recursion depth exceeded
+
+-----------------MON MAIN------------------
+14/10/2015  07:04:23
+GO_TEST_RADAR_V2.MainAppIHM.OnInit
+
+DANS  <class 'Tasks.Task_GestionFich'> 
+
+debutLancementAppli =  14/10/2015  07:04:23
+debutLancementAppli =  14/10/2015  07:04:23
+debutLancementAppli =  14/10/2015  07:04:23
+debutLancementAppli =  14/10/2015  07:04:23
+debutLancementAppli =  14/10/2015  07:04:23
+debutLancementAppli =  14/10/2015  07:04:23
+debutLancementAppli =  14/10/2015  07:04:23
+debutLancementAppli =  14/10/2015  07:04:23
+debutLancementAppli =  14/10/2015  07:04:23
+debutLancementAppli =  14/10/2015  07:04:23
+debutLancementAppli =  14/10/2015  07:04:23
+debutLancementAppli =  14/10/2015  07:04:23
+debutLancementAppli =  14/10/2015  07:04:23
+debutLancementAppli =  14/10/2015  07:04:23
+debutLancementAppli =  14/10/2015  07:04:23
+<MyPagePreferences.PagePreferences;  >
+<MyPagePreferences.PagePreferences;  >
+<MyPagePreferences.PagePreferences;  >
+TimerHeurePC can't STOP
+TimerSignalVie can't STOP
+timerUpdateIHM can't STOP
+OnExit MainAppIHM
+
+14/10/2015  07:04:32
+---------------- FIN DU PROGRAMME --------------------
+INIT task_GestionFich
+
+Exception in thread <class 'Tasks.Task_GestionFich'>:
+Traceback (most recent call last):
+  File "C:\Python26\lib\threading.py", line 532, in __bootstrap_inner
+    self.run()
+  File "C:\TERAMOSS\Tasks.py", line 126, in run
+    if (stop_event.isSet()):
+NameError: global name 'stop_event' is not defined
+
+Traceback (most recent call last):
+  File "C:\TERAMOSS\MyConfirm.py", line 56, in CloseApp
+    self.Close(True)
+RuntimeError: maximum recursion depth exceeded
+
+-----------------MON MAIN------------------
+14/10/2015  07:05:09
+GO_TEST_RADAR_V2.MainAppIHM.OnInit
+
+DANS  <class 'Tasks.Task_GestionFich'> 
+
+debutLancementAppli =  14/10/2015  07:05:09
+debutLancementAppli =  14/10/2015  07:05:09
+debutLancementAppli =  14/10/2015  07:05:09
+debutLancementAppli =  14/10/2015  07:05:09
+debutLancementAppli =  14/10/2015  07:05:09
+debutLancementAppli =  14/10/2015  07:05:09
+debutLancementAppli =  14/10/2015  07:05:09
+debutLancementAppli =  14/10/2015  07:05:09
+debutLancementAppli =  14/10/2015  07:05:09
+debutLancementAppli =  14/10/2015  07:05:09
+debutLancementAppli =  14/10/2015  07:05:09
+debutLancementAppli =  14/10/2015  07:05:09
+debutLancementAppli =  14/10/2015  07:05:09
+debutLancementAppli =  14/10/2015  07:05:09
+debutLancementAppli =  14/10/2015  07:05:09
+<MyPagePreferences.PagePreferences;  >
+<MyPagePreferences.PagePreferences;  >
+<MyPagePreferences.PagePreferences;  >
+TimerHeurePC can't STOP
+TimerSignalVie can't STOP
+timerUpdateIHM can't STOP
+OnExit MainAppIHM
+
+14/10/2015  07:05:20
+---------------- FIN DU PROGRAMME --------------------
+INIT task_GestionFich
+
+Exception in thread <class 'Tasks.Task_GestionFich'>:
+Traceback (most recent call last):
+  File "C:\Python26\lib\threading.py", line 532, in __bootstrap_inner
+    self.run()
+  File "C:\TERAMOSS\Tasks.py", line 126, in run
+    if (stop_event.isSet()):
+NameError: global name 'stop_event' is not defined
+
+Traceback (most recent call last):
+  File "C:\TERAMOSS\MyConfirm.py", line 56, in CloseApp
+    self.Close(True)
+RuntimeError: maximum recursion depth exceeded
+
+-----------------MON MAIN------------------
+14/10/2015  07:05:49
+GO_TEST_RADAR_V2.MainAppIHM.OnInit
+
+DANS  <class 'Tasks.Task_GestionFich'> 
+
+debutLancementAppli =  14/10/2015  07:05:49
+debutLancementAppli =  14/10/2015  07:05:49
+debutLancementAppli =  14/10/2015  07:05:49
+debutLancementAppli =  14/10/2015  07:05:49
+debutLancementAppli =  14/10/2015  07:05:49
+debutLancementAppli =  14/10/2015  07:05:49
+debutLancementAppli =  14/10/2015  07:05:49
+debutLancementAppli =  14/10/2015  07:05:49
+debutLancementAppli =  14/10/2015  07:05:49
+debutLancementAppli =  14/10/2015  07:05:49
+debutLancementAppli =  14/10/2015  07:05:49
+debutLancementAppli =  14/10/2015  07:05:49
+debutLancementAppli =  14/10/2015  07:05:49
+debutLancementAppli =  14/10/2015  07:05:49
+debutLancementAppli =  14/10/2015  07:05:49
+<MyPagePreferences.PagePreferences; proxy of <Swig Object of type 'wxFrame *' at 0x49d4f08> >
+<MyPagePreferences.PagePreferences;  >
+<MyPagePreferences.PagePreferences;  >
+<MyPagePreferences.PagePreferences;  >
+<MyPagePreferences.PagePreferences;  >
+TimerHeurePC can't STOP
+TimerSignalVie can't STOP
+timerUpdateIHM can't STOP
+OnExit MainAppIHM
+
+14/10/2015  07:05:55
+---------------- FIN DU PROGRAMME --------------------
+INIT task_GestionFich
+
+Exception in thread <class 'Tasks.Task_GestionFich'>:
+Traceback (most recent call last):
+  File "C:\Python26\lib\threading.py", line 532, in __bootstrap_inner
+    self.run()
+  File "C:\TERAMOSS\Tasks.py", line 126, in run
+    if (stop_event.isSet()):
+NameError: global name 'stop_event' is not defined
+
+Traceback (most recent call last):
+  File "C:\TERAMOSS\MyIHM.py", line 177, in OpenPreferencePage
+    PrefPage.Show()
+  File "C:\Python26\lib\site-packages\wx-2.8-msw-unicode\wx\_core.py", line 9140, in Show
+    return _core_.Window_Show(*args, **kwargs)
+TypeError: in method 'Window_Show', expected argument 1 of type 'wxWindow *'
+Traceback (most recent call last):
+  File "C:\TERAMOSS\MyConfirm.py", line 56, in CloseApp
+    self.Close(True)
+RuntimeError: maximum recursion depth exceeded
+
+-----------------MON MAIN------------------
+14/10/2015  07:07:22
+GO_TEST_RADAR_V2.MainAppIHM.OnInit
+
+DANS  <class 'Tasks.Task_GestionFich'> 
+
+debutLancementAppli =  14/10/2015  07:07:22
+debutLancementAppli =  14/10/2015  07:07:22
+debutLancementAppli =  14/10/2015  07:07:22
+debutLancementAppli =  14/10/2015  07:07:22
+debutLancementAppli =  14/10/2015  07:07:22
+debutLancementAppli =  14/10/2015  07:07:22
+debutLancementAppli =  14/10/2015  07:07:22
+debutLancementAppli =  14/10/2015  07:07:22
+debutLancementAppli =  14/10/2015  07:07:22
+debutLancementAppli =  14/10/2015  07:07:22
+debutLancementAppli =  14/10/2015  07:07:22
+debutLancementAppli =  14/10/2015  07:07:22
+debutLancementAppli =  14/10/2015  07:07:22
+debutLancementAppli =  14/10/2015  07:07:22
+debutLancementAppli =  14/10/2015  07:07:22
+<MyPagePreferences.PagePreferences; proxy of <Swig Object of type 'wxFrame *' at 0x4a59cf8> >
+<MyPagePreferences.PagePreferences;  >
+TimerHeurePC can't STOP
+TimerSignalVie can't STOP
+timerUpdateIHM can't STOP
+OnExit MainAppIHM
+
+14/10/2015  07:07:31
+---------------- FIN DU PROGRAMME --------------------
+INIT task_GestionFich
+
+Exception in thread <class 'Tasks.Task_GestionFich'>:
+Traceback (most recent call last):
+  File "C:\Python26\lib\threading.py", line 532, in __bootstrap_inner
+    self.run()
+  File "C:\TERAMOSS\Tasks.py", line 126, in run
+    if (stop_event.isSet()):
+NameError: global name 'stop_event' is not defined
+
+Traceback (most recent call last):
+  File "C:\TERAMOSS\MyIHM.py", line 177, in OpenPreferencePage
+    PrefPage.Show()
+  File "C:\Python26\lib\site-packages\wx-2.8-msw-unicode\wx\_core.py", line 9140, in Show
+    return _core_.Window_Show(*args, **kwargs)
+TypeError: in method 'Window_Show', expected argument 1 of type 'wxWindow *'
+Traceback (most recent call last):
+  File "C:\TERAMOSS\MyIHM.py", line 177, in OpenPreferencePage
+    PrefPage.Show()
+  File "C:\Python26\lib\site-packages\wx-2.8-msw-unicode\wx\_core.py", line 9140, in Show
+    return _core_.Window_Show(*args, **kwargs)
+TypeError: in method 'Window_Show', expected argument 1 of type 'wxWindow *'
+Traceback (most recent call last):
+  File "C:\TERAMOSS\MyConfirm.py", line 56, in CloseApp
+    self.Close(True)
+RuntimeError: maximum recursion depth exceeded
+
+-----------------MON MAIN------------------
+14/10/2015  07:10:51
+GO_TEST_RADAR_V2.MainAppIHM.OnInit
+
+DANS  <class 'Tasks.Task_GestionFich'> 
+
+debutLancementAppli =  14/10/2015  07:10:51
+debutLancementAppli =  14/10/2015  07:10:51
+debutLancementAppli =  14/10/2015  07:10:51
+debutLancementAppli =  14/10/2015  07:10:51
+debutLancementAppli =  14/10/2015  07:10:51
+debutLancementAppli =  14/10/2015  07:10:51
+debutLancementAppli =  14/10/2015  07:10:51
+debutLancementAppli =  14/10/2015  07:10:51
+debutLancementAppli =  14/10/2015  07:10:51
+debutLancementAppli =  14/10/2015  07:10:51
+debutLancementAppli =  14/10/2015  07:10:51
+debutLancementAppli =  14/10/2015  07:10:51
+debutLancementAppli =  14/10/2015  07:10:51
+debutLancementAppli =  14/10/2015  07:10:51
+debutLancementAppli =  14/10/2015  07:10:51
+TimerHeurePC can't STOP
+TimerSignalVie can't STOP
+timerUpdateIHM can't STOP
+OnExit MainAppIHM
+
+14/10/2015  07:11:01
+---------------- FIN DU PROGRAMME --------------------
+INIT task_GestionFich
+
+Exception in thread <class 'Tasks.Task_GestionFich'>:
+Traceback (most recent call last):
+  File "C:\Python26\lib\threading.py", line 532, in __bootstrap_inner
+    self.run()
+  File "C:\TERAMOSS\Tasks.py", line 126, in run
+    if (stop_event.isSet()):
+NameError: global name 'stop_event' is not defined
+
+Traceback (most recent call last):
+  File "C:\TERAMOSS\MyIHM.py", line 176, in OpenPreferencePage
+    if PrefPage is not void :
+NameError: global name 'void' is not defined
+Traceback (most recent call last):
+  File "C:\TERAMOSS\MyIHM.py", line 176, in OpenPreferencePage
+    if PrefPage is not void :
+NameError: global name 'void' is not defined
+Traceback (most recent call last):
+  File "C:\TERAMOSS\MyIHM.py", line 176, in OpenPreferencePage
+    if PrefPage is not void :
+NameError: global name 'void' is not defined
+Traceback (most recent call last):
+  File "C:\TERAMOSS\MyIHM.py", line 176, in OpenPreferencePage
+    if PrefPage is not void :
+NameError: global name 'void' is not defined
+Traceback (most recent call last):
+  File "C:\TERAMOSS\MyIHM.py", line 176, in OpenPreferencePage
+    if PrefPage is not void :
+NameError: global name 'void' is not defined
+Traceback (most recent call last):
+  File "C:\TERAMOSS\MyIHM.py", line 176, in OpenPreferencePage
+    if PrefPage is not void :
+NameError: global name 'void' is not defined
+Traceback (most recent call last):
+  File "C:\TERAMOSS\MyConfirm.py", line 56, in CloseApp
+    self.Close(True)
+RuntimeError: maximum recursion depth exceeded
+
+-----------------MON MAIN------------------
+14/10/2015  07:11:36
+GO_TEST_RADAR_V2.MainAppIHM.OnInit
+
+DANS  <class 'Tasks.Task_GestionFich'> 
+
+debutLancementAppli =  14/10/2015  07:11:36
+debutLancementAppli =  14/10/2015  07:11:36
+debutLancementAppli =  14/10/2015  07:11:36
+debutLancementAppli =  14/10/2015  07:11:36
+debutLancementAppli =  14/10/2015  07:11:36
+debutLancementAppli =  14/10/2015  07:11:36
+debutLancementAppli =  14/10/2015  07:11:36
+debutLancementAppli =  14/10/2015  07:11:36
+debutLancementAppli =  14/10/2015  07:11:36
+debutLancementAppli =  14/10/2015  07:11:36
+debutLancementAppli =  14/10/2015  07:11:36
+debutLancementAppli =  14/10/2015  07:11:36
+debutLancementAppli =  14/10/2015  07:11:36
+debutLancementAppli =  14/10/2015  07:11:36
+debutLancementAppli =  14/10/2015  07:11:36
+TimerHeurePC can't STOP
+TimerSignalVie can't STOP
+timerUpdateIHM can't STOP
+OnExit MainAppIHM
+
+14/10/2015  07:11:46
+---------------- FIN DU PROGRAMME --------------------
+INIT task_GestionFich
+
+Exception in thread <class 'Tasks.Task_GestionFich'>:
+Traceback (most recent call last):
+  File "C:\Python26\lib\threading.py", line 532, in __bootstrap_inner
+    self.run()
+  File "C:\TERAMOSS\Tasks.py", line 126, in run
+    if (stop_event.isSet()):
+NameError: global name 'stop_event' is not defined
+
+Traceback (most recent call last):
+  File "C:\TERAMOSS\MyIHM.py", line 176, in OpenPreferencePage
+    if PrefPage is not Null :
+NameError: global name 'Null' is not defined
+Traceback (most recent call last):
+  File "C:\TERAMOSS\MyIHM.py", line 176, in OpenPreferencePage
+    if PrefPage is not Null :
+NameError: global name 'Null' is not defined
+Traceback (most recent call last):
+  File "C:\TERAMOSS\MyIHM.py", line 176, in OpenPreferencePage
+    if PrefPage is not Null :
+NameError: global name 'Null' is not defined
+Traceback (most recent call last):
+  File "C:\TERAMOSS\MyIHM.py", line 176, in OpenPreferencePage
+    if PrefPage is not Null :
+NameError: global name 'Null' is not defined
+Traceback (most recent call last):
+  File "C:\TERAMOSS\MyIHM.py", line 176, in OpenPreferencePage
+    if PrefPage is not Null :
+NameError: global name 'Null' is not defined
+Traceback (most recent call last):
+  File "C:\TERAMOSS\MyIHM.py", line 176, in OpenPreferencePage
+    if PrefPage is not Null :
+NameError: global name 'Null' is not defined
+Traceback (most recent call last):
+  File "C:\TERAMOSS\MyConfirm.py", line 56, in CloseApp
+    self.Close(True)
+RuntimeError: maximum recursion depth exceeded
+
+-----------------MON MAIN------------------
+14/10/2015  07:32:50
+GO_TEST_RADAR_V2.MainAppIHM.OnInit
+
+DANS  <class 'Tasks.Task_GestionFich'> 
+
+debutLancementAppli =  14/10/2015  07:32:55
+debutLancementAppli =  14/10/2015  07:32:55
+debutLancementAppli =  14/10/2015  07:32:55
+debutLancementAppli =  14/10/2015  07:32:55
+debutLancementAppli =  14/10/2015  07:32:55
+debutLancementAppli =  14/10/2015  07:32:55
+debutLancementAppli =  14/10/2015  07:32:55
+debutLancementAppli =  14/10/2015  07:32:55
+debutLancementAppli =  14/10/2015  07:32:55
+debutLancementAppli =  14/10/2015  07:32:55
+debutLancementAppli =  14/10/2015  07:32:55
+debutLancementAppli =  14/10/2015  07:32:55
+debutLancementAppli =  14/10/2015  07:32:55
+debutLancementAppli =  14/10/2015  07:32:55
+debutLancementAppli =  14/10/2015  07:32:55
+TimerHeurePC can't STOP
+TimerSignalVie can't STOP
+timerUpdateIHM can't STOP
+OnExit MainAppIHM
+
+14/10/2015  07:33:09
+---------------- FIN DU PROGRAMME --------------------
+INIT task_GestionFich
+
+Exception in thread <class 'Tasks.Task_GestionFich'>:
+Traceback (most recent call last):
+  File "C:\Python26\lib\threading.py", line 532, in __bootstrap_inner
+    self.run()
+  File "C:\TERAMOSS\Tasks.py", line 126, in run
+    if (stop_event.isSet()):
+NameError: global name 'stop_event' is not defined
+
+Traceback (most recent call last):
+  File "C:\TERAMOSS\MyIHM.py", line 175, in OpenPreferencePage
+    PrefPage = PagePreferences(self)
+TypeError: __init__() should return None, not 'list'
+Traceback (most recent call last):
+  File "C:\TERAMOSS\MyIHM.py", line 175, in OpenPreferencePage
+    PrefPage = PagePreferences(self)
+TypeError: __init__() should return None, not 'list'
+Traceback (most recent call last):
+  File "C:\TERAMOSS\MyConfirm.py", line 56, in CloseApp
+    self.Close(True)
+RuntimeError: maximum recursion depth exceeded
+
+-----------------MON MAIN------------------
+14/10/2015  07:36:02
+GO_TEST_RADAR_V2.MainAppIHM.OnInit
+
+DANS  <class 'Tasks.Task_GestionFich'> 
+
+debutLancementAppli =  14/10/2015  07:36:04
+debutLancementAppli =  14/10/2015  07:36:04
+debutLancementAppli =  14/10/2015  07:36:04
+debutLancementAppli =  14/10/2015  07:36:04
+debutLancementAppli =  14/10/2015  07:36:04
+debutLancementAppli =  14/10/2015  07:36:04
+debutLancementAppli =  14/10/2015  07:36:04
+debutLancementAppli =  14/10/2015  07:36:04
+debutLancementAppli =  14/10/2015  07:36:04
+debutLancementAppli =  14/10/2015  07:36:04
+debutLancementAppli =  14/10/2015  07:36:04
+debutLancementAppli =  14/10/2015  07:36:04
+debutLancementAppli =  14/10/2015  07:36:04
+debutLancementAppli =  14/10/2015  07:36:04
+debutLancementAppli =  14/10/2015  07:36:04
+TimerHeurePC can't STOP
+TimerSignalVie can't STOP
+timerUpdateIHM can't STOP
+OnExit MainAppIHM
+
+14/10/2015  07:36:19
+---------------- FIN DU PROGRAMME --------------------
+INIT task_GestionFich
+
+Exception in thread <class 'Tasks.Task_GestionFich'>:
+Traceback (most recent call last):
+  File "C:\Python26\lib\threading.py", line 532, in __bootstrap_inner
+    self.run()
+  File "C:\TERAMOSS\Tasks.py", line 126, in run
+    if (stop_event.isSet()):
+NameError: global name 'stop_event' is not defined
+
+Traceback (most recent call last):
+  File "C:\TERAMOSS\MyIHM.py", line 177, in OpenPreferencePage
+    PrefPage.Show()
+  File "C:\Python26\lib\site-packages\wx-2.8-msw-unicode\wx\_core.py", line 9140, in Show
+    return _core_.Window_Show(*args, **kwargs)
+TypeError: in method 'Window_Show', expected argument 1 of type 'wxWindow *'
+Traceback (most recent call last):
+  File "C:\TERAMOSS\MyConfirm.py", line 56, in CloseApp
+    self.Close(True)
+RuntimeError: maximum recursion depth exceeded
+
+-----------------MON MAIN------------------
+14/10/2015  07:37:54
+GO_TEST_RADAR_V2.MainAppIHM.OnInit
+
+DANS  <class 'Tasks.Task_GestionFich'> 
+
+debutLancementAppli =  14/10/2015  07:37:55
+debutLancementAppli =  14/10/2015  07:37:55
+debutLancementAppli =  14/10/2015  07:37:55
+debutLancementAppli =  14/10/2015  07:37:55
+debutLancementAppli =  14/10/2015  07:37:55
+debutLancementAppli =  14/10/2015  07:37:55
+debutLancementAppli =  14/10/2015  07:37:55
+debutLancementAppli =  14/10/2015  07:37:55
+debutLancementAppli =  14/10/2015  07:37:55
+debutLancementAppli =  14/10/2015  07:37:55
+debutLancementAppli =  14/10/2015  07:37:55
+debutLancementAppli =  14/10/2015  07:37:55
+debutLancementAppli =  14/10/2015  07:37:55
+debutLancementAppli =  14/10/2015  07:37:55
+debutLancementAppli =  14/10/2015  07:37:55
+TimerHeurePC can't STOP
+TimerSignalVie can't STOP
+timerUpdateIHM can't STOP
+OnExit MainAppIHM
+
+14/10/2015  07:38:05
+---------------- FIN DU PROGRAMME --------------------
+INIT task_GestionFich
+
+Exception in thread <class 'Tasks.Task_GestionFich'>:
+Traceback (most recent call last):
+  File "C:\Python26\lib\threading.py", line 532, in __bootstrap_inner
+    self.run()
+  File "C:\TERAMOSS\Tasks.py", line 126, in run
+    if (stop_event.isSet()):
+NameError: global name 'stop_event' is not defined
+
+Traceback (most recent call last):
+  File "C:\TERAMOSS\MyConfirm.py", line 56, in CloseApp
+    self.Close(True)
+RuntimeError: maximum recursion depth exceeded
+
+-----------------MON MAIN------------------
+16/10/2015  08:55:44
+GO_TEST_RADAR_V2.MainAppIHM.OnInit
+
+DANS  <class 'Tasks.Task_GestionFich'> 
+
+debutLancementAppli =  16/10/2015  08:55:44
+debutLancementAppli =  16/10/2015  08:55:44
+debutLancementAppli =  16/10/2015  08:55:44
+debutLancementAppli =  16/10/2015  08:55:44
+debutLancementAppli =  16/10/2015  08:55:44
+debutLancementAppli =  16/10/2015  08:55:44
+debutLancementAppli =  16/10/2015  08:55:44
+debutLancementAppli =  16/10/2015  08:55:44
+debutLancementAppli =  16/10/2015  08:55:44
+debutLancementAppli =  16/10/2015  08:55:44
+debutLancementAppli =  16/10/2015  08:55:44
+debutLancementAppli =  16/10/2015  08:55:44
+debutLancementAppli =  16/10/2015  08:55:44
+debutLancementAppli =  16/10/2015  08:55:44
+debutLancementAppli =  16/10/2015  08:55:44
+TimerHeurePC can't STOP
+TimerSignalVie can't STOP
+timerUpdateIHM can't STOP
+OnExit MainAppIHM
+
+16/10/2015  08:55:50
+---------------- FIN DU PROGRAMME --------------------
