@@ -20,11 +20,11 @@ class MainAppIHM(wx.App):
 
 	#Trame_a_analyser = None; Sniff le réseau
 	#Trame_a_analyser = nom_d_un_fichier; Lecture dans un fichier
-	Trame_a_analyser = None
+	Trame_a_analyser = "sample"
 	#Trame_a_analyser = "captures SIRSUR"
 	N=1
 
-	#My_task_LectTrame = Tasks.Task_Lect_Trame(Trame_a_analyser, N)
+	My_task_LectTrame = Tasks.Task_Lect_Trame(Trame_a_analyser, N)
 	#My_task_AnaTrames = Tasks.Task_AnaTrames()
 	My_task_GestionFich = Tasks.Task_GestionFich()
 	#My_task_TEST1 = Tasks.Task_TEST1()
@@ -38,10 +38,10 @@ class MainAppIHM(wx.App):
 	def OnInit(self):
 		print "GO_TEST_RADAR_V2.MainAppIHM.OnInit\n"
 		
-		#try:
-			#self.My_task_LectTrame.start()
-		#except:
-			#print "Error: unable to start thread Task_Lect_Trame \n"
+		try:
+			self.My_task_LectTrame.start()
+		except:
+			print "Error: unable to start thread Task_Lect_Trame \n"
 		
 		#try:
 		#	self.My_task_AnaTrames.start()

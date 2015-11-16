@@ -5,7 +5,7 @@
 # Initiated by : Tuan DANG
 # Followed by : Clovis HAMEL
 # 2011-2015 CRNA/N
-# Gestion des fichiers de configuration
+# Analyse des trames recues
 #######################################################
 
 import datetime
@@ -20,21 +20,21 @@ CAT48 = 48
 
 # Liste des radars utilises
 RADAR_ModeS={
-		"fd:ff:30:ff:08:15" : "Nevers",
-		"fd:ff:30:ff:08:12" : "Grand Ballon", 
-		"fd:ff:30:ff:08:14" : "Boulogne", 
-		"fd:ff:30:ff:08:01" : "Chaumont",
-		"fd:ff:30:ff:08:13" : "Avranches",
-		"fd:ff:30:ff:08:07" : "Palaiseau",
-		"fd:ff:30:ff:08:09" : "Coubron",
-		"fd:ff:30:ff:08:02" : "Tours",
-		"fd:ff:30:ff:08:22" : "Roissy",
-		"fd:ff:30:ff:06:03" : "Bertem"
-		}
+	"fd:ff:30:ff:08:15" : "Nevers",
+	"fd:ff:30:ff:08:12" : "Grand Ballon", 
+	"fd:ff:30:ff:08:14" : "Boulogne", 
+	"fd:ff:30:ff:08:01" : "Chaumont",
+	"fd:ff:30:ff:08:13" : "Avranches",
+	"fd:ff:30:ff:08:07" : "Palaiseau",
+	"fd:ff:30:ff:08:09" : "Coubron",
+	"fd:ff:30:ff:08:02" : "Tours",
+	"fd:ff:30:ff:08:22" : "Roissy",
+	"fd:ff:30:ff:06:03" : "Bertem"
+}
 
-#Obtenir le nombre dÃ©cimal correspondant Ã  un code de Gray donnÃ©
-#En entrÃ©e : la chaine de caractÃ¨re du code binaire codÃ© avec le codage de Gray
-#En sortie : le nombre dÃ©cimal correspondant au code binaire
+#Obtenir le nombre décimal correspondant à un code de Gray donné
+#En entrée : la chaine de caractère du code binaire codé avec le codage de Gray
+#En sortie : le nombre décimal correspondant au code binaire
 def gray2dec(ch):
     i=ch.find("1")
     if i<0:
@@ -58,7 +58,7 @@ def gray2dec(ch):
 #*********************************************************************************************************************
 
 #***************************** SysCfgStatusExtractedCAT34  ***********************************************************
-#J'extrait les items du champ : System Configuration and Status
+#J'extrais les items du champ : System Configuration and Status
 class SysCfgStatusExtractedCAT34(Packet):
 	name="Detail du Data Item : System Configuration and Status"
 	fields_desc = [IntEnumField("COM_NoGo", None,{0:"System Is Operationnal", 1:"System Is Inhibited"}),
